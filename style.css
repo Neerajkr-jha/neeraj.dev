@@ -653,6 +653,7 @@ footer span {
 }
 
 @media(max-width: 995px) {
+
     #menu-toggle {
         display: block;
     }
@@ -692,6 +693,7 @@ footer span {
         margin: 5rem 0;
         gap: 4rem;
         padding-top: 12rem;
+        text-align: center;
     }
 
     .home-content h1 {
@@ -702,9 +704,41 @@ footer span {
         font-size: 2.5rem;
     }
 
+    .home-content p {
+        max-width: 100%;
+    }
+
     .home-img img {
         width: 70vw;
         margin-top: 2rem;
+    }
+
+    .skills {
+        padding: 6rem 5% 3rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .sk-card {
+        padding: 2rem 1rem;
+    }
+
+    .sk-logo-wrap {
+        width: 56px;
+        height: 56px;
+    }
+
+    .sk-logo-wrap img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .sk-card span {
+        font-size: 1.3rem;
+        text-align: center;
     }
 
     .timeline::before {
@@ -729,12 +763,36 @@ footer span {
 }
 
 @media(max-width: 600px) {
+
     .section-title {
         font-size: 3.5rem;
     }
 
     .exp-card {
         flex-direction: column;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.2rem;
+    }
+
+    .sk-card {
+        padding: 1.8rem 0.8rem;
+    }
+
+    .sk-logo-wrap {
+        width: 50px;
+        height: 50px;
+    }
+
+    .sk-logo-wrap img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .sk-card span {
+        font-size: 1.2rem;
     }
 }
 

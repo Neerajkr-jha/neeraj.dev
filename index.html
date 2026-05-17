@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio Website</title>
+</head>
+
+<body>
+
+  <header>
+    <a href="#home" class="logo">Neeraj.dev</a>
+    <i class="fa-solid fa-bars" id="menu-toggle"></i>
+    <nav id="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-img">
+      <img src="main.jpg" alt="Neeraj">
+    </div>
+    <div class="home-content">
+      <h1>Hi, It's <span>Neeraj</span></h1>
+      <h3 class="typing-text">I'm a developer<span></span></h3>
+      <p>Passionate developer crafting beautiful digital experiences. I love turning ideas into clean, efficient and
+        user-friendly products that make a real difference.</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Neerajkr-jha" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://x.com/jha_neeraj29" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+      <a href="#contact" class="btn">Hire Me</a>
+      <a target="_blank" href="https://drive.google.com/file/d/1c3xE9k-ihNoM-LpANxCc-EJXFu4bv62G/view?usp=sharing"
+        download class="btn resume-btn">
+        <i class="fa-solid fa-download"></i> Resume
+      </a>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="section-title">My <span>Projects</span></h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+        <h3>E-Commerce Platform</h3>
+        <p>A full-stack e-commerce web app with real-time inventory, payment integration and an admin dashboard for
+          product management.</p>
+        <div class="project-tags">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">Express</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Neerajkr-jha/bookify" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="https://bookkify.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+            Live</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-film"></i></div>
+        <h3>AI Resume Builder</h3>
+        <p>An AI-powered resume builder that generates professional resumes instantly with live Preview</p>
+        <div class="project-tags">
+          <span class="tag">React</span>
+          <span class="tag">Gemini API</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">Express</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Neerajkr-jha/Ai-Resume-Builder" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="https://ai-resume-maker-t46v.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon"><i class="fa-solid fa-robot"></i></div>
+        <h3>AI Interview Assistant</h3>
+        <p>A GPT-powered chatbot web application with conversation history, multiple personas and markdown rendering
+          support.</p>
+        <div class="project-tags">
+          <span class="tag">React</span>
+          <span class="tag">Gemini API</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">Express</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Neerajkr-jha/HCL-Interview-Bot" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="https://interview-prep-bot-6ked.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <div class="skills-grid">
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+            alt="HTML"></div><span>HTML</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            alt="CSS"></div><span>CSS</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="JavaScript"></div><span>JavaScript</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            alt="React.js"></div><span>React.js</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            alt="TypeScript">
+        </div>
+        <span>TypeScript</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"></div>
+        <span>Node.js</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js">
+        </div><span>Express.js</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"></div>
+        <span>MongoDB</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+            alt="PostgreSQL"></div><span>PostgreSQL</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            alt="Git"></div><span>Git</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"></div>
+        <span>GitHub</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+            alt="Figma"></div><span>Figma</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"></div>
+        <span>Docker</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"></div>
+        <span>Python</span>
+      </div>
+      <div class="sk-card">
+        <div class="sk-logo-wrap">
+          <img src="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg"
+            alt="Gemini API">
+        </div>
+        <span>Gemini API</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <h2 class="section-title">My <span>Education</span></h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="year">2023 – 2027</div>
+          <h3>B.Tech — Computer Science Engineering (DS)</h3>
+          <h4>ABES Engineering College, Ghaziabad</h4>
+          <p>Currently pursuing B.Tech in Computer Science (Data Science). Focused on web technologies, 
+data structures, and software engineering. CGPA: 7.86/10.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="year">2021 – 2022</div>
+          <h3>Higher Secondary — Science</h3>
+          <h4>Bloom Public Senior Secondary School</h4>
+          <p>Scored 84.66% in board exams.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+ <section class="experience" id="experience">
+  <h2 class="section-title">My <span>Experience</span></h2>
+  <div class="exp-grid">
+
+    <div class="exp-card">
+      <div class="exp-icon"><i class="fa-brands fa-github"></i></div>
+      <div class="exp-info">
+        <div class="period">Jan 2025 – Mar 2025</div>
+        <h3>Open Source Contributor</h3>
+        <h4>Social Winter of Code</h4>
+        <ul>
+          <li>Merged 4+ pull requests fixing bugs and adding new features.</li>
+          <li>Resolved JavaScript functionality issues across multiple projects.</li>
+          <li>Gained hands-on experience contributing to real-world open source codebases.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact <span>Me</span></h2>
+    <div class="contact-wrapper">
+
+      <div class="contact-info">
+        <h3>Let's Work <span>Together</span></h3>
+        <p>Have a project in mind or just want to say hi? My inbox is always open — I'll get back to you as soon as
+          possible!</p>
+        <div class="contact-detail">
+          <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+          <span>jhaneeraj290@example.com</span>
+        </div>
+        <div class="contact-detail">
+          <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+          <span>+91 99103 10735</span>
+        </div>
+        <div class="contact-detail">
+          <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <span>New Delhi, India</span>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="return false;">
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Subject">
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Your Message" required></textarea>
+        </div>
+        <button class="btn" type="submit">Send Message &nbsp;<i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed &amp; Built by <span>Neeraj</span> &copy; 2024. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

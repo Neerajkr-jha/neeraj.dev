@@ -19,28 +19,43 @@ window.addEventListener('scroll', () => {
   });
 });
 
-const typingEl   = document.querySelector('.home-content h3'); // target your <h3>
-const roles      = ['Full Stack Developer', 'Data Science Student', 'Open Source Contributor'];
-let roleIndex    = 0;
-let charIndex    = 0;
-let isDeleting   = false;
+const typingEl = document.querySelector('.home-content h3');
+
+const roles = [
+  'Full Stack Developer',
+  'CSE Student',
+];
+
+let roleIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
 
 function type() {
   const current = roles[roleIndex];
-  typingEl.textContent = current.slice(0, charIndex);
+
+  typingEl.innerHTML =
+    current.slice(0, charIndex) +
+    '<span class="typing-cursor">|</span>';
 
   if (!isDeleting && charIndex < current.length) {
     charIndex++;
     setTimeout(type, 80);
+
   } else if (isDeleting && charIndex > 0) {
     charIndex--;
     setTimeout(type, 45);
+
   } else {
     isDeleting = !isDeleting;
-    if (!isDeleting) roleIndex = (roleIndex + 1) % roles.length;
+
+    if (!isDeleting) {
+      roleIndex = (roleIndex + 1) % roles.length;
+    }
+
     setTimeout(type, isDeleting ? 1200 : 500);
   }
 }
+
 type();
 
 const revealEls = document.querySelectorAll(
@@ -89,4 +104,28 @@ document.querySelectorAll('.section-title').forEach(t => {
 const header = document.querySelector('header');
 window.addEventListener('scroll', () => {
   header.classList.toggle('scrolled', window.scrollY > 50);
+});
+
+// Email
+
+emailjs.init("vyp18lzBMOWTawLtH");
+
+const form = document.getElementById("contact-form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  emailjs.sendForm(
+    "service_wrvzod3",
+    "template_ly56tje",
+    this
+  )
+  .then(() => {
+    alert("Message sent successfully!");
+    form.reset();
+  })
+  .catch((error) => {
+    alert("Failed to send message.");
+    console.log(error);
+  });
 });

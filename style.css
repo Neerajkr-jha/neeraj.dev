@@ -24,7 +24,7 @@ body {
 }
 
 span {
-    color: #b74b4b;
+    color: #4b4bb7 ;
 }
 
 .resume-btn {
@@ -52,7 +52,7 @@ header {
 
 .logo {
     font-size: 3rem;
-    color: #b74b4b;
+    color: #4b4bb7 ;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -73,14 +73,14 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: #b74b4b;
-    border-bottom: 3px solid #b74b4b;
+    color: #4b4bb7 ;
+    border-bottom: 3px solid #4b4bb7 ;
 }
 
 #menu-toggle {
     display: none;
     font-size: 2.8rem;
-    color: #b74b4b;
+    color: #4b4bb7 ;
     cursor: pointer;
 }
 
@@ -97,7 +97,7 @@ section {
 }
 
 .section-title span {
-    color: #b74b4b;
+    color: #4b4bb7 ;
 }
 
 .section-title::after {
@@ -105,7 +105,7 @@ section {
     display: block;
     width: 8rem;
     height: 4px;
-    background: #b74b4b;
+    background: #4b4bb7 ;
     margin: 1.2rem auto 0;
     border-radius: 2px;
 }
@@ -116,19 +116,19 @@ section {
     background-color: black;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: #b74b4b;
+    color: #4b4bb7 ;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #b74b4b;
+    border: 2px solid #4b4bb7 ;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .btn:hover {
     transform: scale(1.03);
-    background-color: #b74b4b;
+    background-color: #4b4bb7 ;
     color: black;
-    box-shadow: 0 0 25px #b74b4b;
+    box-shadow: 0 0 25px #4b4bb7 ;
 }
 
 .home {
@@ -179,19 +179,19 @@ section {
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #b74b4b;
+    border: 0.2rem solid #4b4bb7 ;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
-    color: #b74b4b;
+    color: #4b4bb7 ;
 }
 
 .social-icons a:hover {
     color: black;
     transform: scale(1.3) translateY(-5px);
-    background-color: #b74b4b;
-    box-shadow: 0 0 25px #b74b4b;
+    background-color: #4b4bb7 ;
+    box-shadow: 0 0 25px #4b4bb7 ;
 }
 
 .projects {
@@ -221,7 +221,7 @@ section {
     left: 0;
     width: 100%;
     height: 4px;
-    background: #b74b4b;
+    background: #4b4bb7 ;
     transform: scaleX(0);
     transform-origin: left;
     transition: 0.3s ease;
@@ -229,7 +229,7 @@ section {
 
 .project-card:hover {
     transform: translateY(-8px);
-    border-color: #b74b4b;
+    border-color: #4b4bb7 ;
     box-shadow: 0 15px 40px rgba(183, 75, 75, 0.18);
 }
 
@@ -239,7 +239,7 @@ section {
 
 .project-icon {
     font-size: 4rem;
-    color: #b74b4b;
+    color: #4b4bb7 ;
     margin-bottom: 1.5rem;
 }
 
@@ -267,22 +267,22 @@ section {
 .tag {
     font-size: 1.2rem;
     padding: 0.4rem 1.2rem;
-    border: 1px solid #b74b4b;
+    border: 1px solid #4b4bb7 ;
     border-radius: 2rem;
-    color: #b74b4b;
+    color: #4b4bb7 ;
     background: rgba(183, 75, 75, 0.08);
 }
 
 .project-links a {
     font-size: 1.5rem;
-    color: #b74b4b;
+    color: #4b4bb7 ;
     margin-right: 2rem;
     transition: 0.3s ease;
     font-weight: 500;
 }
 
 .project-links a:hover {
-    text-shadow: 0 0 10px #b74b4b;
+    text-shadow: 0 0 10px #4b4bb7 ;
 }
 
 .project-links a i {
@@ -316,7 +316,7 @@ section {
 }
 
 .sk-card:hover {
-  border-color: #b74b4b;
+  border-color: #4b4bb7 ;
   transform: translateY(-5px);
 }
 
@@ -411,10 +411,10 @@ section {
     width: 1.8rem;
     height: 1.8rem;
     top: 2.2rem;
-    background: #b74b4b;
+    background: #4b4bb7 ;
     border-radius: 50%;
     border: 3px solid black;
-    box-shadow: 0 0 10px #b74b4b;
+    box-shadow: 0 0 10px #4b4bb7 ;
 }
 
 .timeline-content {
@@ -427,13 +427,13 @@ section {
 }
 
 .timeline-content:hover {
-    border-color: #b74b4b;
+    border-color: #4b4bb7 ;
     transform: translateY(-4px);
 }
 
 .timeline-content .year {
     font-size: 1.3rem;
-    color: #b74b4b;
+    color: #4b4bb7 ;
     font-weight: 600;
     letter-spacing: 0.15rem;
     margin-bottom: 0.5rem;
@@ -483,7 +483,7 @@ section {
 }
 
 .exp-card:hover {
-    border-color: #b74b4b;
+    border-color: #4b4bb7 ;
     transform: translateY(-6px);
     box-shadow: 0 15px 40px rgba(183, 75, 75, 0.15);
 }
@@ -493,13 +493,13 @@ section {
     height: 5.5rem;
     min-width: 5.5rem;
     background: rgba(183, 75, 75, 0.1);
-    border: 1px solid #b74b4b;
+    border: 1px solid #4b4bb7 ;
     border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2.8rem;
-    color: #b74b4b;
+    color: #4b4bb7 ;
 }
 
 .exp-info {
@@ -508,7 +508,7 @@ section {
 
 .exp-info .period {
     font-size: 1.2rem;
-    color: #b74b4b;
+    color: #4b4bb7 ;
     font-weight: 600;
     letter-spacing: 0.1rem;
     margin-bottom: 0.2rem;
@@ -547,7 +547,7 @@ section {
     content: '▸';
     position: absolute;
     left: 0;
-    color: #b74b4b;
+    color: #4b4bb7 ;
 }
 
 .contact {
@@ -587,13 +587,13 @@ section {
     width: 4.5rem;
     height: 4.5rem;
     background: rgba(183, 75, 75, 0.1);
-    border: 1px solid #b74b4b;
+    border: 1px solid #4b4bb7 ;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.8rem;
-    color: #b74b4b;
+    color: #4b4bb7 ;
     flex-shrink: 0;
 }
 
@@ -627,7 +627,7 @@ section {
 
 .form-group input:focus,
 .form-group textarea:focus {
-    border-color: #b74b4b;
+    border-color: #4b4bb7 ;
     box-shadow: 0 0 15px rgba(183, 75, 75, 0.15);
 }
 
@@ -649,7 +649,7 @@ footer {
 }
 
 footer span {
-    color: #b74b4b;
+    color: #4b4bb7 ;
 }
 
 @media(max-width: 995px) {
@@ -664,8 +664,8 @@ footer span {
         top: 100%;
         right: 0;
         width: 50%;
-        border-left: 3px solid #b74b4b;
-        border-bottom: 3px solid #b74b4b;
+        border-left: 3px solid #4b4bb7 ;
+        border-bottom: 3px solid #4b4bb7 ;
         border-bottom-left-radius: 2rem;
         padding: 2rem;
         background-color: #161616;
@@ -685,7 +685,7 @@ footer span {
     nav a.active {
         padding: 1rem;
         border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #b74b4b;
+        border-bottom: 0.5rem solid #4b4bb7 ;
     }
 
     .home {
